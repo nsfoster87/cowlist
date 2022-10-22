@@ -4,7 +4,9 @@
   "description": "A fullstack application for keeping track of cows",
   "main": "index.js",
   "scripts": {
-    "react-babel": "babel client/src --out-dir client/dist/compiled --presets=@babel/preset-react,@babel/preset-env --source-maps inline --watch"
+    "react-babel": "babel client/src --out-dir client/dist/compiled --presets=@babel/preset-react,@babel/preset-env --source-maps inline --watch",
+    "react-webpack": "webpack --watch",
+    "start": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nathaniel Foster",
